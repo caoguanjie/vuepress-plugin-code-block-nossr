@@ -1,20 +1,22 @@
 {
     "_args": [
         [
-            "vuepress-plugin-code-block-nossr@1.0.4"
+            "@bfehub/vuepress-plugin-code-block@1.0.4",
+            "/Users/fits-vue/Documents/FitsPCFrame_V3.0的副本"
         ]
     ],
-    "_from": "vuepress-plugin-code-block-nossr@1.0.4",
-    "_id": "vuepress-plugin-code-block-nossr@1.0.4",
+    "_from": "@bfehub/vuepress-plugin-code-block@1.0.4",
+    "_id": "@bfehub/vuepress-plugin-code-block@1.0.4",
     "_inBundle": false,
     "_integrity": "sha512-pkmotpkNDMOeCHP/Gd7/gyJhg3zmiHccasLFJb1ORtoLaYx7zaS2UqPlbZYH09hs81RCdhSkWRrnI1ndoBWIeg==",
-    "_location": "vuepress-plugin-code-block-nossr",
+    "_location": "/@bfehub/vuepress-plugin-code-block",
     "_phantomChildren": {},
     "_requested": {
         "type": "version",
         "registry": true,
-        "raw": "vuepress-plugin-code-block-nossr@1.0.4",
-        "name": "vuepress-plugin-code-block-nossr",
+        "raw": "@bfehub/vuepress-plugin-code-block@1.0.4",
+        "name": "@bfehub/vuepress-plugin-code-block",
+        "escapedName": "@bfehub%2fvuepress-plugin-code-block",
         "scope": "@bfehub",
         "rawSpec": "1.0.4",
         "saveSpec": null,
@@ -23,14 +25,15 @@
     "_requiredBy": [
         "/"
     ],
-    "_resolved": "https://registry.npmjs.org/caoguanjie/vuepress-plugin-code-block-nossr/",
+    "_resolved": "https://registry.npmjs.org/@bfehub/vuepress-plugin-code-block/-/vuepress-plugin-code-block-1.0.4.tgz",
     "_spec": "1.0.4",
+    "_where": "/Users/fits-vue/Documents/FitsPCFrame_V3.0的副本",
     "author": {
-        "name": "caoguanjie"
+        "name": "haiweilian"
     },
     "dependencies": {
-        "@mdit-vue/shared": "0.7.0",
-        "@types/markdown-it": "12.2.3",
+        "@mdit-vue/shared": "^0.7.0",
+        "@types/markdown-it": "^12.2.3",
         "@vuepress/cli": "2.0.0-beta.49",
         "@vuepress/client": "2.0.0-beta.49",
         "@vuepress/core": "2.0.0-beta.49",
@@ -38,12 +41,12 @@
         "@vuepress/plugin-prismjs": "2.0.0-beta.49",
         "@vuepress/shared": "2.0.0-beta.49",
         "@vuepress/utils": "2.0.0-beta.49",
-        "@vueuse/core": "8.2.1",
-        "markdown-it": "13.0.1",
-        "posthtml-parser": "0.11.0",
-        "posthtml-render": "3.0.0",
-        "vue": "3.2.33",
-        "vue-router": "4.0.15"
+        "@vueuse/core": "^8.2.1",
+        "markdown-it": "^13.0.1",
+        "posthtml-parser": "^0.11.0",
+        "posthtml-render": "^3.0.0",
+        "vue": "^3.2.33",
+        "vue-router": "^4.0.15"
     },
     "description": "VuePress plugin - code-block",
     "files": [
@@ -68,5 +71,5 @@
         "copy": "cpx \"src/**/*.{d.ts,vue,scss}\" lib"
     },
     "types": "lib/node/index.d.ts",
-    "version": "1.0.6"
+    "version": "1.0.10"
 }
