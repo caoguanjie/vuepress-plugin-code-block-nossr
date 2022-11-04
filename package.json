@@ -1,6 +1,6 @@
 {
     "name": "vuepress-plugin-code-block-nossr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "VuePress plugin - code-block",
     "files": [
         "src"
