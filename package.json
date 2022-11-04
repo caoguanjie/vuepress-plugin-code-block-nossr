@@ -1,25 +1,32 @@
 {
-    "name": "vuepress-plugin-code-block-nossr",
-    "version": "1.0.2",
-    "description": "VuePress plugin - code-block",
-    "files": [
-        "lib"
+    "_args": [
+        [
+            "vuepress-plugin-code-block-nossr@1.0.4"
+        ]
     ],
-    "keywords": [
-        "vuepress-plugin",
-        "vuepress",
-        "plugin",
-        "code-block"
+    "_from": "vuepress-plugin-code-block-nossr@1.0.4",
+    "_id": "vuepress-plugin-code-block-nossr@1.0.4",
+    "_inBundle": false,
+    "_integrity": "sha512-pkmotpkNDMOeCHP/Gd7/gyJhg3zmiHccasLFJb1ORtoLaYx7zaS2UqPlbZYH09hs81RCdhSkWRrnI1ndoBWIeg==",
+    "_location": "vuepress-plugin-code-block-nossr",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "version",
+        "registry": true,
+        "raw": "vuepress-plugin-code-block-nossr@1.0.4",
+        "name": "vuepress-plugin-code-block-nossr",
+        "scope": "@bfehub",
+        "rawSpec": "1.0.4",
+        "saveSpec": null,
+        "fetchSpec": "1.0.4"
+    },
+    "_requiredBy": [
+        "/"
     ],
-    "license": "MIT",
-    "author": "caoguanjie",
-    "main": "lib/node/index.js",
-    "types": "lib/node/index.d.ts",
-    "homepage": "https://github.com/caoguanjie/vuepress-plugin-code-block-nossr",
-    "scripts": {
-        "build": "tsc -b tsconfig.build.json",
-        "clean": "rimraf lib *.tsbuildinfo",
-        "copy": "cpx \"src/**/*.{d.ts,vue,scss}\" src"
+    "_resolved": "https://registry.npmjs.org/caoguanjie/vuepress-plugin-code-block-nossr/",
+    "_spec": "1.0.4",
+    "author": {
+        "name": "caoguanjie"
     },
     "dependencies": {
         "@mdit-vue/shared": "^0.7.0",
@@ -38,7 +45,28 @@
         "vue": "^3.2.33",
         "vue-router": "^4.0.15"
     },
+    "description": "VuePress plugin - code-block",
+    "files": [
+        "lib"
+    ],
+    "homepage": "https://github.com/bfehub/vmi",
+    "keywords": [
+        "vuepress-plugin",
+        "vuepress",
+        "plugin",
+        "code-block"
+    ],
+    "license": "MIT",
+    "main": "lib/node/index.js",
+    "name": "vuepress-plugin-code-block-nossr",
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "scripts": {
+        "build": "tsc -b tsconfig.build.json",
+        "clean": "rimraf lib *.tsbuildinfo",
+        "copy": "cpx \"src/**/*.{d.ts,vue,scss}\" lib"
+    },
+    "types": "lib/node/index.d.ts",
+    "version": "1.0.4"
 }
