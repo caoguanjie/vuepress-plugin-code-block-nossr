@@ -1,9 +1,9 @@
 {
     "name": "vuepress-plugin-code-block-nossr",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "VuePress plugin - code-block",
     "files": [
-        "src"
+        "lib"
     ],
     "keywords": [
         "vuepress-plugin",
@@ -13,8 +13,8 @@
     ],
     "license": "MIT",
     "author": "caoguanjie",
-    "main": "src/node/index.js",
-    "types": "src/node/index.d.ts",
+    "main": "lib/node/index.js",
+    "types": "lib/node/index.d.ts",
     "homepage": "https://github.com/caoguanjie/vuepress-plugin-code-block-nossr",
     "scripts": {
         "build": "tsc -b tsconfig.build.json",
