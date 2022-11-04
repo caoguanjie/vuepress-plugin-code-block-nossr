@@ -49,21 +49,20 @@ Vmi 是一个用于组件开发场景的 VuePress 的插件集合。尽量通过
 
 ```js
  node.content = [{
-            tag: 'ClientOnly',
+            tag: 'VmiExample',
+            attrs: {
+                id: dep.compAttrs.id,
+                iframe: dep.compAttrs.iframe,
+                iframeSrc,
+                transform: dep.compAttrs.transform,
+            },
             content: [{
-                    tag: 'VmiExample',
-                    attrs: {
-                        id: dep.compAttrs.id,
-                        iframe: dep.compAttrs.iframe,
-                        iframeSrc,
-                        transform: dep.compAttrs.transform,
-                    },
-                    content: [{
-                        tag: dep.compName,
-                    }],
-                },
-            ]
-        }
+                tag: 'ClientOnly',
+                content: [{
+                    tag: dep.compName,
+                }],
+            }],
+        },
 
     ];
 ```

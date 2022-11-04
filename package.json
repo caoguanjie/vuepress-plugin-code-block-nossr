@@ -68,5 +68,5 @@
         "copy": "cpx \"src/**/*.{d.ts,vue,scss}\" lib"
     },
     "types": "lib/node/index.d.ts",
-    "version": "1.0.4"
+    "version": "1.0.5"
 }
