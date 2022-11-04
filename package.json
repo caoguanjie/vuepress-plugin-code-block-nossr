@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "VuePress plugin - code-block",
     "files": [
-        "lib"
+        "src"
     ],
     "keywords": [
         "vuepress-plugin",
@@ -12,14 +12,14 @@
         "code-block"
     ],
     "license": "MIT",
-    "author": "haiweilian",
-    "main": "lib/node/index.js",
-    "types": "lib/node/index.d.ts",
+    "author": "caoguanjie",
+    "main": "src/node/index.js",
+    "types": "src/node/index.d.ts",
     "homepage": "https://github.com/caoguanjie/vuepress-plugin-code-block-nossr",
     "scripts": {
         "build": "tsc -b tsconfig.build.json",
         "clean": "rimraf lib *.tsbuildinfo",
-        "copy": "cpx \"src/**/*.{d.ts,vue,scss}\" lib"
+        "copy": "cpx \"src/**/*.{d.ts,vue,scss}\" src"
     },
     "dependencies": {
         "@mdit-vue/shared": "^0.7.0",
