@@ -1,3 +1,4 @@
+# 从@bfehub/vuepress-plugin-code-block fork过来，解决vuepress发现的的ssr的bug，用于组件开发场景的 VuePress 的插件和主题
 # vuepress-plugin-code-block-nossr
 
 [文档及演示](https://bfehub.github.io/vmi/zh/guide/)
